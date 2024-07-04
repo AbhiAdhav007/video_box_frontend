@@ -1,6 +1,5 @@
 
 import { Card, } from 'react-bootstrap';
-// import VideoModal from './VideoModal';
 import { useNavigate } from 'react-router-dom';
 import { BACKEND_URI } from '../config/constants';
 const UserCard = ({ obj }) => {

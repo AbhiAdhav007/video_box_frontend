@@ -11,18 +11,6 @@ const Navbar = () => {
         <li><a href="/account">User Account</a></li>
       </ul>
     </nav>
-//     <h4><button className="btn btn-link mt-3" onClick={()=>{navigate(`/video_listing`)}}>
-//     View All Videos
-// </button></h4>
-// <h4><button className="btn btn-link mt-3" onClick={()=>{navigate(`/login`)}}>
-//     Login
-// </button></h4>
-// <h4><button className="btn btn-link mt-3" onClick={()=>{navigate(`/signup`)}}>
-//     Sign Up
-// </button></h4>
-// <h4><button className="btn btn-link mt-3" onClick={()=>{navigate(`/account`)}}>
-//     User Account
-// </button></h4>
   );
 };
 
