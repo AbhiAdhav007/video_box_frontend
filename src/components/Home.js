@@ -1,21 +1,15 @@
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
+import '../styles/Home.css'
+import Navbar from './NavBar';
 const Home = ()=>{
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
     return (
         <>
-        <div className='container'>
-            <h4><button className="btn btn-link mt-3" onClick={()=>{navigate(`/video_listing`)}}>
-                    View All Videos
-            </button></h4>
-            <h4><button className="btn btn-link mt-3" onClick={()=>{navigate(`/login`)}}>
-                    Login
-            </button></h4>
-            <h4><button className="btn btn-link mt-3" onClick={()=>{navigate(`/signup`)}}>
-                    Sign Up
-            </button></h4>
-            <h4><button className="btn btn-link mt-3" onClick={()=>{navigate(`/account`)}}>
-                    User Account
-            </button></h4>
+         <Navbar />
+        <div className="home-content">
+            <h1>Project Name: Video Box</h1>
+            <p>Host Name: Abhishek Adhav</p>
+            <p>Email: abhishekadhav7449@gmail.com</p>
         </div>
         </>
     )
