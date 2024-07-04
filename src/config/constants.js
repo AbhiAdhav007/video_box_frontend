@@ -1,0 +1,1 @@
+export const BACKEND_URI = "https://video-box-backend.onrender.com";
